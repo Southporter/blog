@@ -3,6 +3,8 @@ languageCode: en-us
 theme: terminal
 paginate: 5
 
+publishDir: docs
+
 params:
   contentTypeName: posts
   # [orange, blue, red, green, pink]
