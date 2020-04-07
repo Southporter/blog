@@ -1,0 +1,44 @@
+baseurl: "https://ssedrick.github.io/blog"
+languageCode: en-us
+theme: terminal
+paginate: 5
+
+params:
+  contentTypeName: posts
+  # [orange, blue, red, green, pink]
+  themeColor: orange
+
+  showMenuItems: 2
+
+  showLanguageSelector: false
+
+  fullWidthTheme: false
+  centerTheme: true
+
+languages:
+  en:
+    languageName: English
+    title: ssedrick's Blog
+    subtitle: Blogging about life and stuff
+    owner: ssedrick
+    keywords: keyboards, coding
+    copyright: "2020 Shem Sedrick <ssedrick1@gmail.com>"
+    menuMore: Show More
+    readMore: Read More
+    readOtherPosts: Read other posts
+    params:
+      logo:
+        logoText: ssedrick
+        logoHomeLink: /blog
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+        - identifier: showcase
+          name: Showcase
+          url: /showcase
+
+
+
+
