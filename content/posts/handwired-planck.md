@@ -51,4 +51,4 @@ Then, as it always does, life happened and I got busy. This project fell by the 
 With a sudden event that forced most people to work from home, I now had a bit more time on my hands. I also forgot to bring my keyboard home. Typing on the Macbook keyboard reminded me why I got into keyboards in the first place, and I decided to finally finish this project.
 
 I started by soldering the left side of the board. I started with the rows:
-{{< figure src="img/handwired/left-side-rows.jpg" alt="Left half with rows soldered" position="center" caption="Left side rows" >}}
+{{< figure src="/blog/img/handwired/left-side-rows.jpg" alt="Left half with rows soldered" position="center" caption="Left side rows" >}}
