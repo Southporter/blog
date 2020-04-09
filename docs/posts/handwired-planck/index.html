@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Handwired Planck :: ssedrick&#39;s Blog — Blogging about life and stuff</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Handwired Planck A foray into handwired keyboards
+Why the Planck This isn&amp;rsquo;t my first custom keyboard. Nor will it probably be my last. But this is the first time I did the wiring myself including setting up the microcontroller.
+I started into keyboards by buying a Magiforce 86. I got it as a Drop (back then it was called MassDrop) and started out with Cherry MX Brown switches. It was a good board, but I found the browns to be a bit mushy." />
+<meta name="keywords" content="keyboard, planck, handwired" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://ssedrick.github.io/blog/posts/handwired-planck/" />
+
+
+
+
+<link rel="stylesheet" href="https://ssedrick.github.io/blog/assets/style.css">
+
+  <link rel="stylesheet" href="https://ssedrick.github.io/blog/assets/green.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://ssedrick.github.io/blog/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://ssedrick.github.io/blog/img/favicon/green.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+<meta name="twitter:creator" content="Shem Sedrick" />
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Handwired Planck :: ssedrick&#39;s Blog">
+<meta property="og:description" content="My adventure into handwiring a keyboard" />
+<meta property="og:url" content="https://ssedrick.github.io/blog/posts/handwired-planck/" />
+<meta property="og:site_name" content="Handwired Planck" />
+
+  
+    <meta property="og:image" content="https://ssedrick.github.io/blog/img/favicon/green.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-04-08 07:30:25 -0500 CDT" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/blog">
+  <div class="logo">
+    ssedrick
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/blog/about">About</a></li>
+        
+      
+        
+          <li><a href="/blog/showcase">Showcase</a></li>
+        
+      
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/blog/about">About</a></li>
+      
+    
+      
+        <li><a href="/blog/showcase">Showcase</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://ssedrick.github.io/blog/posts/handwired-planck/">Handwired Planck</a></h1>
+  <div class="post-meta">
+      
+    <span class="post-date">
+      2020-04-08
+    </span>
+    
+    
+    <span class="post-author">::
+      Shem Sedrick
+    </span>
+    
+  </div>
+
+  
+  <span class="post-tags">
+    
+    #<a href="https://ssedrick.github.io/blog/tags/keyboards/">keyboards</a>&nbsp;
+    
+    #<a href="https://ssedrick.github.io/blog/tags/soldering/">soldering</a>&nbsp;
+    
+  </span>
+  
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="handwired-planck">Handwired Planck<a href="#handwired-planck" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>A foray into handwired keyboards</p>
+<h3 id="why-the-planck">Why the Planck<a href="#why-the-planck" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>This isn&rsquo;t my first custom keyboard. Nor will it probably be my last. But this is the first time I did the wiring myself including setting up the microcontroller.</p>
+<p>I started into keyboards by buying a Magiforce 86. I got it as a Drop (back then it was called MassDrop) and started out with Cherry MX Brown switches. It was a good board, but I found the browns to be a bit mushy. That, and I had started to get some strain on my wrists from the mouse and keyboard.</p>
+<p>I then dove into <a href="https://reddit.com/r/mechanicalkeyboards">/r/mechanicalkeyboards</a> and researched the various types and styles of keyboards. Split keyboards, ortholinear keyboards were the most interesting to me. I decided to try out the <a href="https://keeb.io/collections/frontpage/products/levinson-lets-split-w-led-backlight">Levinson</a>.</p>
+<p>I thoroughly enjoyed my split Planck. It&rsquo;s been a great keyboard for everyday use. Keeping everything within 1 movement from home row as much as possible has great benefits.</p>
+<h3 id="into-handwiring">Into handwiring<a href="#into-handwiring" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>I have always had a desire to better understand electronics and computers. They fascinate me. So naturally I wanted to get a little deeper into how <a href="https://qmk.fm">QMK</a> and keyboards work.</p>
+<h3 id="parts-assemble">Parts Assemble!<a href="#parts-assemble" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>I collected the initial parts. I got <a href="https://drop.com/buy/novelkeys-x-kaihua-kalih-speed-heavy-switches">Kaihl Speed Heavy Switches</a>, the Burnt Orange variety. I prefer heavier switches and wanted to try out the Speed switches because of their quicker actuation.</p>
+<p>I wanted a fairly minimal design, so I got <a href="https://keeb.io/collections/cases-plates/products/levinson-keyboard-case-plates">PCB plates</a> from keeb.io. I was a little worried that they might bow when typing on them, but that hasn&rsquo;t been the case for me.</p>
+<p>I wanted to try out XDA style keycaps and really liked the <a href="https://mitormk.com/portfolio/xda-canvas-round-2-2018/">Mito Canvas</a>. I got those in another Drop.</p>
+<p>Once I got all those parts, I couldn&rsquo;t help but plug the switches into the plates, pop on the keycaps and enjoy the view. It&rsquo;s only so satisifying to have all the physical parts put together though, so now I needed all the electronics.</p>
+<p>I got some <a href="https://www.amazon.com/gp/product/B07BWC596B">wire</a> and some <a href="https://www.amazon.com/gp/product/B079KJ91JZ">diodes</a> back in 2018. As soon as I got them, I soldered all the diodes to the switches. To solder the diodes, I bent all the diodes on one side against a book. After making a loop on one side with a pair of needlenose plier, I set that on the left pin of the switch and applied solder to get it to stay.</p>
+<p>Then, as it always does, life happened and I got busy. This project fell by the wayside until March of 2020.</p>
+<h3 id="wiring-things-up">Wiring things up<a href="#wiring-things-up" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
+<p>With a sudden event that forced most people to work from home, I now had a bit more time on my hands. I also forgot to bring my keyboard home. Typing on the Macbook keyboard reminded me why I got into keyboards in the first place, and I decided to finally finish this project.</p>
+<p>I started by soldering the left side of the board. I started with the rows:
+
+  <figure class="center" >
+    <img src="img/handwired/left-side-rows.jpg"  alt="Left half with rows soldered"   />
+    
+      <figcaption class="center" >Left side rows</figcaption>
+    
+  </figure>
+
+</p>
+
+      </div></div>
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">
+        <span>2020 Shem Sedrick <ssedrick1@gmail.com></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://ssedrick.github.io/blog/assets/main.js"></script>
+<script src="https://ssedrick.github.io/blog/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

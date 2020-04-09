@@ -8,7 +8,7 @@ publishDir: docs
 params:
   contentTypeName: posts
   # [orange, blue, red, green, pink]
-  themeColor: orange
+  themeColor: green
 
   showMenuItems: 2
 

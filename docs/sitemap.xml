@@ -3,15 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ssedrick.github.io/blog/categories/</loc>
+    <loc>https://ssedrick.github.io/blog/posts/handwired-planck/</loc>
+    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ssedrick.github.io/blog/tags/keyboards/</loc>
+    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ssedrick.github.io/blog/posts/</loc>
+    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ssedrick.github.io/blog/tags/soldering/</loc>
+    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://ssedrick.github.io/blog/</loc>
+    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://ssedrick.github.io/blog/tags/</loc>
+    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ssedrick.github.io/blog/categories/</loc>
   </url>
   
 </urlset>
