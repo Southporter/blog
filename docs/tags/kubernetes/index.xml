@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ssedrick&#39;s Blog</title>
-    <link>https://ssedrick.github.io/blog/posts/</link>
-    <description>Recent content in Posts on ssedrick&#39;s Blog</description>
+    <title>kubernetes on ssedrick&#39;s Blog</title>
+    <link>https://ssedrick.github.io/blog/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on ssedrick&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Shem Sedrick &lt;ssedrick1@gmail.com&gt;</copyright>
     <lastBuildDate>Wed, 15 Apr 2020 15:22:17 -0500</lastBuildDate>
     
-	<atom:link href="https://ssedrick.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ssedrick.github.io/blog/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
       <description>Navigating Kubernetes Custom Metrics and HPA Custom Metric API Provider This post assumes a few things:
  You have a kubernetes cluster setup and kubectl correctly configured You have a custom metrics api deployed into the cluster  For clarity, the custom metrics api that I am using is the prometheus-adapter. Some may be implemented differently so your mileage may vary.
 Using the Custom Metrics API kubectl get --raw &amp;#34;/apis/custom.metrics.k8s.io/v1beta1&amp;#34; | jq This outputs a list of available metrics in the custom metrics api.</description>
-    </item>
-    
-    <item>
-      <title>Handwired Planck</title>
-      <link>https://ssedrick.github.io/blog/posts/handwired-planck/</link>
-      <pubDate>Wed, 08 Apr 2020 07:30:25 -0500</pubDate>
-      
-      <guid>https://ssedrick.github.io/blog/posts/handwired-planck/</guid>
-      <description>Handwired Planck A foray into handwired keyboards
-Why the Planck This isn&amp;rsquo;t my first custom keyboard. Nor will it probably be my last. But this is the first time I did the wiring myself including setting up the microcontroller.
-I started into keyboards by buying a Magiforce 86. I got it as a Drop (back then it was called MassDrop) and started out with Cherry MX Brown switches. It was a good board, but I found the browns to be a bit mushy.</description>
     </item>
     
   </channel>

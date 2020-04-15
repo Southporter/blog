@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Shem Sedrick &lt;ssedrick1@gmail.com&gt;</copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 07:30:25 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2020 15:22:17 -0500</lastBuildDate>
     
 	<atom:link href="https://ssedrick.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Navigating Custom Metrics</title>
+      <link>https://ssedrick.github.io/blog/posts/navigating-custom-metrics/</link>
+      <pubDate>Wed, 15 Apr 2020 15:22:17 -0500</pubDate>
+      
+      <guid>https://ssedrick.github.io/blog/posts/navigating-custom-metrics/</guid>
+      <description>Navigating Kubernetes Custom Metrics and HPA Custom Metric API Provider This post assumes a few things:
+ You have a kubernetes cluster setup and kubectl correctly configured You have a custom metrics api deployed into the cluster  For clarity, the custom metrics api that I am using is the prometheus-adapter. Some may be implemented differently so your mileage may vary.
+Using the Custom Metrics API kubectl get --raw &amp;#34;/apis/custom.metrics.k8s.io/v1beta1&amp;#34; | jq This outputs a list of available metrics in the custom metrics api.</description>
+    </item>
     
     <item>
       <title>Handwired Planck</title>
