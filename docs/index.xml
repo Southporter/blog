@@ -7,10 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 Shem Sedrick &lt;ssedrick1@gmail.com&gt;</copyright>
-    <lastBuildDate>Wed, 15 Apr 2020 15:22:17 -0500</lastBuildDate>
-    
-	<atom:link href="https://ssedrick.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 26 Jul 2022 20:20:20 -0500</lastBuildDate><atom:link href="https://ssedrick.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dactyl Manuform</title>
+      <link>https://ssedrick.github.io/blog/posts/dactyl_manuform/</link>
+      <pubDate>Tue, 26 Jul 2022 20:20:20 -0500</pubDate>
+      
+      <guid>https://ssedrick.github.io/blog/posts/dactyl_manuform/</guid>
+      <description>Dactyl Manuform I&amp;rsquo;ve been wanting to build a Dactyl Manuform for a while. Since diving into mechanical keyboards, I&amp;rsquo;ve been particularly interested in the ergonomics of typing. The Dactyl is an interesting keyboard for a couple of reasons.
+ It&amp;rsquo;s is parameterized. This means you can change a few inputs and get a customized keyboard. The concave nature and thumb cluster improve ergonomics.  I&amp;rsquo;ve been daily driving the my handwired planck for about 2 years now and have really liked the keyboard.</description>
+    </item>
     
     <item>
       <title>Navigating Custom Metrics</title>

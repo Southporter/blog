@@ -1,54 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://ssedrick.github.io/blog/posts/dactyl_manuform/</loc>
+    <lastmod>2022-07-26T20:20:20-05:00</lastmod>
+  </url><url>
+    <loc>https://ssedrick.github.io/blog/tags/ergonomics/</loc>
+    <lastmod>2022-07-26T20:20:20-05:00</lastmod>
+  </url><url>
+    <loc>https://ssedrick.github.io/blog/tags/keyboards/</loc>
+    <lastmod>2022-07-26T20:20:20-05:00</lastmod>
+  </url><url>
+    <loc>https://ssedrick.github.io/blog/posts/</loc>
+    <lastmod>2022-07-26T20:20:20-05:00</lastmod>
+  </url><url>
+    <loc>https://ssedrick.github.io/blog/tags/soldering/</loc>
+    <lastmod>2022-07-26T20:20:20-05:00</lastmod>
+  </url><url>
+    <loc>https://ssedrick.github.io/blog/</loc>
+    <lastmod>2022-07-26T20:20:20-05:00</lastmod>
+  </url><url>
+    <loc>https://ssedrick.github.io/blog/tags/</loc>
+    <lastmod>2022-07-26T20:20:20-05:00</lastmod>
+  </url><url>
     <loc>https://ssedrick.github.io/blog/tags/kubernetes/</loc>
     <lastmod>2020-04-15T15:22:17-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ssedrick.github.io/blog/posts/navigating-custom-metrics/</loc>
     <lastmod>2020-04-15T15:22:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ssedrick.github.io/blog/posts/</loc>
-    <lastmod>2020-04-15T15:22:17-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ssedrick.github.io/blog/tags/prometheus/</loc>
     <lastmod>2020-04-15T15:22:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ssedrick.github.io/blog/</loc>
-    <lastmod>2020-04-15T15:22:17-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ssedrick.github.io/blog/tags/</loc>
-    <lastmod>2020-04-15T15:22:17-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ssedrick.github.io/blog/posts/handwired-planck/</loc>
     <lastmod>2020-04-08T07:30:25-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ssedrick.github.io/blog/tags/keyboards/</loc>
-    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ssedrick.github.io/blog/tags/soldering/</loc>
-    <lastmod>2020-04-08T07:30:25-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ssedrick.github.io/blog/categories/</loc>
   </url>
-  
 </urlset>
